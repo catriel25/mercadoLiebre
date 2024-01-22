@@ -1,0 +1,415 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    width: 100%;
+    
+}
+
+header{
+    background-color: #EAC926;
+    padding: 15px;
+    height: 180px;
+}
+
+.header-top input{
+    border: none;
+
+}
+
+.header-top p{
+    text-align: center;
+}
+header nav{
+    display: none;
+}
+
+.logo{
+    width: 165px;
+    padding: 10px;
+}
+
+.logo-busqueda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+
+}
+
+.busqueda{
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    height: 30px;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+
+
+header nav{
+    font-size: 12px;
+
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.burger-menu{
+    text-align: center;
+
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
+    padding: 11px;
+
+}
+
+.banner img{
+    width: 100%;
+}
+main{
+    width: 90%;
+    margin: auto;
+
+}
+
+main article{
+    margin: 10px 0px;
+    
+}
+
+main section{
+    width: 90%;
+    margin: auto;
+}
+
+main section article{
+    background-color: #fff;
+}
+
+main section article img{
+    width: 100%;
+}
+
+.main-article{
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative;
+
+}
+
+
+.main-article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    color:#39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    transition-duration: 1s;
+}
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productos article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    transition-duration: 1s;
+}
+
+
+h3{
+    font-size: 24px;
+    color: #666;
+    padding: 10px 0px;
+}
+
+p{
+    font-size: 12px;
+}
+
+.precio-descuento{
+    display: flex;
+    padding: 5px 0px 15px 0px;
+    align-items: first baseline;
+
+}
+.precio{
+    font-size: 18px;
+    width: 30%;
+    
+}
+
+.descuento{
+    color: #39b54a;
+    font-size: 16px;
+    width: 70%;
+
+}
+
+.descripcion{
+    font-size: 16px;
+    font-weight: normal;
+    display: none;
+    color: #666;
+    transition-duration: 1s;
+}
+
+
+footer{
+    margin-top: 50px;
+    background-color: white;
+}
+
+.footer-style{
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+}
+
+.footer-style article{
+   padding: 20px 25px;
+}
+
+.footer-style i{
+    font-size: 2em;
+    color: #1259c3;
+}
+
+.main-registro{
+    margin-top: 30px;
+ 
+}
+
+.main-registro-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.main-registro-form input, label{
+    display: block;
+    margin: 20px;
+    border: none;
+}
+.main-registro-form input{
+    border-radius: 5px;
+    width: 90%;
+}
+.main-registro-form label{
+    font-weight: bold;
+    font-size: small;
+}
+
+.main-registro-form-perfilUsuario{
+    display: flex;
+}
+
+.main-registro-form-perfilUsuario label{
+    font-size: 10px;
+    font-weight: normal;
+
+}
+
+
+.main-registro-form-intereses-choses label{
+    display: flex;
+    font-weight: bold;
+    font-size: 10px;
+    align-items: center;
+    font-weight: normal;
+    margin: 10px;
+}
+.main-registro-form-intereses input{
+    
+    width: auto;
+}
+
+.main-registro-form-buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-registro-form-buttons button{
+    background-color: #0044AA;
+    color: #ebebeb;
+    border-color:#1259c3;
+    border-radius: 3px;
+}
+
+.main-registro-form-buttons a{
+    text-decoration: none;
+    color: #ebebeb;
+}
+
+.main-login-form-buttons{
+    width: 250px;
+    background-color: #0044AA;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.main-login-form-buttons a{
+    text-decoration: none;
+    color: #ebebeb;
+}
+
+
+
+@media(min-width:767px){
+    .header-top{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo-busqueda{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+@media(min-width: 768px){
+    header{
+        height: 145px;
+    }
+    .header-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+
+    .logo{
+        width: 250px;
+    }
+    
+
+    header nav{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    nav ul{
+        display: flex;
+    }
+    nav ul li{
+        padding: 0px 10px;
+    }
+
+
+    .descripcion{
+        display:block;
+    }
+
+    .productos{
+        justify-content: space-between;
+    }
+    .productos article{
+        flex-basis: 40%;
+    }
+    .burger-menu{
+        display: none;
+    }
+
+}
+
+@media(min-width: 1200px){
+   .logo{
+        width: 280px;
+    }
+    .busqueda i{
+        text-align: right;
+    }
+
+    .busqueda form{
+        display: flex;
+        justify-content: space-between;
+        width: 250px;
+    }
+
+    .busqueda form input{
+        width: 250px;
+    }
+
+    header nav{
+        text-align: center;
+    }
+    .productos article{
+        flex-basis: 20%;
+        box-shadow: none;
+    }
+
+    .productos article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .precio{
+        font-size: 18px;
+        width: 50%;
+        
+    }
+    
+    .descuento{
+        color: #39b54a;
+        font-size: 16px;
+        width: 50%;
+    
+    }
+    .descripcion{
+        display:none;
+    }
+
+    .productos article:hover .descripcion{
+        display: block;
+    }
+    .productos article:hover i{
+        transform: rotateZ(-90deg);
+    }
+    .main-login-form-buttons:hover{
+        background-color: #0022AA;
+    }
+
+    .footer-style{
+        display: flex;
+    }
+
+    footer p{
+        text-align: center;
+    }
+
+    .footer-style i:hover{
+        color: rgb(95, 177, 84)
+    }
+
+
+
+}
